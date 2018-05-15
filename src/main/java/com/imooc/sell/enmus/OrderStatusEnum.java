@@ -3,7 +3,7 @@ package com.imooc.sell.enmus;
 import lombok.Getter;
 
 @Getter
-public enum OrderStatusEnum {
+public enum OrderStatusEnum implements CodeEnum{
     NEW(0,"新订单"),
     FINISHED(1,"已完成"),
     CANCLE(2,"已取消"),
